@@ -1,0 +1,61 @@
+header{
+background-color: rgb(16, 0, 230);
+background-image: url(images/web1.png);
+min-height: 70vh;
+background-repeat: no-repeat;
+background-position: top center;
+background-size: cover;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+.header-content{
+  background-color: rgba(255, 0, 0, 0.5);
+  padding: 2em;
+  text-align: center;
+}
+
+.header-content h1{
+  font-size: 2em;
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1{
+  font-family: 'PT Sans Narrow', sans-serif;
+  font-size: 2em;
+  padding: 2em;
+  text-align: center;
+
+}
+
+h2{
+  font-family: 'Lobster', cursive;
+  font-size: 2em;
+  padding: 2em;
+  text-align: center;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  padding: 2em;
+  text-align: center;
+}
+
+section{
+  min-height: 10vh;
+  padding: 2em;
+  text-align: center;
+}
+
+.container{
+  background-color: rgba(185, 210, 207, 0.5);
+  max-width: 80em;
+  margin-right: auto;
+  margin-left: auto;
+  color: #fff;
+  font-size: 1.5em;
+  padding: 5em;
+}
