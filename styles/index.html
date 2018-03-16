@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Session Javascript</title>
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+    <script src="scripts/jquery.lettering.js"></script>
+
+    <script src="scripts/jquery.colorbox-min.js"></script>
+
+
+
+  </head>
+  <body>
+
+
+
+    <a class='gallery' href='styles/images/web1.png'>Photo_1</a>
+    <a class='gallery' href='styles/images/web2.png'>Photo_2</a>
+    <a class='gallery' href='styles/images/web3.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web4.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web5.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web6.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web7.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web8.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web9.png'>Photo_3</a>
+		<a class='gallery' href='styles/images/web10.png'>Photo_3</a>
+
+
+		<script>
+	     $(document).ready(function() {
+	       $(".fancy_title").lettering();
+	     });
+	  </script>
+
+	  <script>
+	      jQuery(document).ready(function () {
+	        jQuery('a.gallery').colorbox({ opacity:0.5 , rel:'group1' });
+	      });
+	    </script>
+
+
+	</body>
+	</html>
